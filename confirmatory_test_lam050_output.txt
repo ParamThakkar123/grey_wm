@@ -1,0 +1,43 @@
+
+== fresh seeds 15-24 at lambda 0.5 (confirmatory, exact)
+sepsis  gru+ft          Effect skill                 n=(10, 10) grey=  0.644 base=  0.436 p=0.00001 holm=0.0002
+sepsis  gru+ft          Regret                       n=(10, 10) grey=  1.486 base=  1.711 p=0.00015 holm=0.0016
+sepsis  gru+ft          CF RMSE                      n=(10, 10) grey=  0.378 base=  0.391 p=0.00267 holm=0.0111
+sepsis  gru+ft          Planning regret, open loop   n=(10, 10) grey=  1.441 base=  1.568 p=0.00009 holm=0.0011
+sepsis  gru+ft          Planning regret, closed loop n=(10, 10) grey=  0.632 base=  0.836 p=0.00003 holm=0.0005
+sepsis  gru-ode+ft      Effect skill                 n=(10, 10) grey=  0.644 base=  0.411 p=0.00001 holm=0.0002
+sepsis  gru-ode+ft      Regret                       n=(10, 10) grey=  1.486 base=  1.875 p=0.00002 holm=0.0003
+sepsis  gru-ode+ft      CF RMSE                      n=(10, 10) grey=  0.378 base=  0.394 p=0.00003 holm=0.0005
+sepsis  gru-ode+ft      Planning regret, open loop   n=(10, 10) grey=  1.441 base=  1.672 p=0.00001 holm=0.0002
+sepsis  gru-ode+ft      Planning regret, closed loop n=(10, 10) grey=  0.632 base=  0.796 p=0.00001 holm=0.0002
+sepsis  crn+ft          Effect skill                 n=(10, 10) grey=  0.644 base=  0.397 p=0.00001 holm=0.0002
+sepsis  crn+ft          Regret                       n=(10, 10) grey=  1.486 base=  1.864 p=0.00001 holm=0.0002
+sepsis  crn+ft          CF RMSE                      n=(10, 10) grey=  0.378 base=  0.398 p=0.00001 holm=0.0002
+sepsis  crn+ft          Planning regret, open loop   n=(10, 10) grey=  1.441 base=  1.663 p=0.00001 holm=0.0002
+sepsis  crn+ft          Planning regret, closed loop n=(10, 10) grey=  0.632 base=  0.911 p=0.00001 holm=0.0002
+sepsis  transformer+ft  Effect skill                 n=(10, 10) grey=  0.644 base=  0.593 p=0.00001 holm=0.0002
+sepsis  transformer+ft  Regret                       n=(10, 10) grey=  1.486 base=  1.979 p=0.00010 holm=0.0012
+sepsis  transformer+ft  CF RMSE                      n=(10, 10) grey=  0.378 base=  0.389 p=0.00066 holm=0.0046
+sepsis  transformer+ft  Planning regret, open loop   n=(10, 10) grey=  1.441 base=  1.628 p=0.00186 holm=0.0111
+sepsis  transformer+ft  Planning regret, closed loop n=(10, 10) grey=  0.632 base=  0.740 p=0.00970 holm=0.0194
+glucose gru+ft          Effect skill                 n=(10, 10) grey=  0.494 base=  0.296 p=0.00001 holm=0.0002
+glucose gru+ft          Regret                       n=(10, 10) grey= 17.354 base= 23.343 p=0.00247 holm=0.0111
+glucose gru+ft          CF RMSE                      n=(10, 10) grey=  0.790 base=  0.889 p=0.00001 holm=0.0002
+glucose gru+ft          Planning regret, open loop   n=(10, 10) grey=  5.080 base=  7.554 p=0.00001 holm=0.0002
+glucose gru+ft          Planning regret, closed loop n=(10, 10) grey=  3.770 base=  5.613 p=0.00001 holm=0.0002
+glucose gru-ode+ft      Effect skill                 n=(10, 10) grey=  0.494 base=  0.094 p=0.00016 holm=0.0016
+glucose gru-ode+ft      Regret                       n=(10, 10) grey= 17.354 base= 38.956 p=0.04466 holm=0.0447
+glucose gru-ode+ft      CF RMSE                      n=(10, 10) grey=  0.790 base=  0.888 p=0.00017 holm=0.0016
+glucose gru-ode+ft      Planning regret, open loop   n=(10, 10) grey=  5.080 base= 14.036 p=0.00037 holm=0.0029
+glucose gru-ode+ft      Planning regret, closed loop n=(10, 10) grey=  3.770 base= 13.330 p=0.00008 holm=0.0011
+glucose crn+ft          Effect skill                 n=(10, 10) grey=  0.494 base=  0.286 p=0.00001 holm=0.0002
+glucose crn+ft          Regret                       n=(10, 10) grey= 17.354 base= 24.173 p=0.00222 holm=0.0111
+glucose crn+ft          CF RMSE                      n=(10, 10) grey=  0.790 base=  0.866 p=0.00001 holm=0.0002
+glucose crn+ft          Planning regret, open loop   n=(10, 10) grey=  5.080 base=  7.138 p=0.00001 holm=0.0002
+glucose crn+ft          Planning regret, closed loop n=(10, 10) grey=  3.770 base=  5.182 p=0.00001 holm=0.0002
+glucose transformer+ft  Effect skill                 n=(10, 10) grey=  0.494 base= -0.093 p=0.00001 holm=0.0002
+glucose transformer+ft  Regret                       n=(10, 10) grey= 17.354 base= 55.802 p=0.00004 holm=0.0006
+glucose transformer+ft  CF RMSE                      n=(10, 10) grey=  0.790 base=  1.074 p=0.00001 holm=0.0002
+glucose transformer+ft  Planning regret, open loop   n=(10, 10) grey=  5.080 base= 19.529 p=0.00001 holm=0.0002
+glucose transformer+ft  Planning regret, closed loop n=(10, 10) grey=  3.770 base= 19.191 p=0.00001 holm=0.0002
+fresh seeds 15-24 at lambda 0.5 (confirmatory, exact): 40 of 40 significant after Holm; 0 incomplete

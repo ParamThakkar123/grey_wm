@@ -1,0 +1,1126 @@
+{
+ "fresh": [
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Effect skill",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.6218674264070441,
+   "base": 0.30952499400552436,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Regret",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 1.6916247153121216,
+   "base": 2.181620916666769,
+   "p": 1.6237632336703544e-05,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "CF RMSE",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.3843307965959827,
+   "base": 0.4047017810938727,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 1.5448822484460503,
+   "base": 1.9281457487360687,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.7158146499853986,
+   "base": 1.0388797358213693,
+   "p": 1.082508822446903e-05,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Effect skill",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.6218674264070441,
+   "base": 0.3348601121791033,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Regret",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 1.6916247153121216,
+   "base": 2.356017481549997,
+   "p": 2.7062720561172574e-05,
+   "holm": 0.00024356448505055318
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "CF RMSE",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.3843307965959827,
+   "base": 0.4211566037513242,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 1.5448822484460503,
+   "base": 2.0516688103329606,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.7158146499853986,
+   "base": 1.1341023517538,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Effect skill",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.6218674264070441,
+   "base": 0.32227400842482057,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Regret",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 1.6916247153121216,
+   "base": 2.3490422307586942,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "CF RMSE",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.3843307965959827,
+   "base": 0.4096345856222389,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 1.5448822484460503,
+   "base": 2.0201437407530776,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.7158146499853986,
+   "base": 1.130999139006834,
+   "p": 1.082508822446903e-05,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Effect skill",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.6218674264070441,
+   "base": 0.5448295329826228,
+   "p": 0.00030851501439736734,
+   "holm": 0.0011636969841304207
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Regret",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 1.6916247153121216,
+   "base": 2.549776246621005,
+   "p": 0.00023273939682608413,
+   "holm": 0.0011636969841304207
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "CF RMSE",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.3843307965959827,
+   "base": 0.4128294225292697,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 1.5448822484460503,
+   "base": 2.0031634138874885,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.7158146499853986,
+   "base": 0.9477169174523672,
+   "p": 0.00023273939682608413,
+   "holm": 0.0011636969841304207
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Effect skill",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.4917397078394152,
+   "base": 0.23547450305707757,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Regret",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 21.13573535087248,
+   "base": 29.49064699321216,
+   "p": 0.0001461386910303319,
+   "holm": 0.0010392084695490268
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "CF RMSE",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.8863064572447374,
+   "base": 1.1019734934281527,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 5.632420514313076,
+   "base": 11.747376174551437,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 4.259287444719851,
+   "base": 11.89679900759626,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Effect skill",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.4917397078394152,
+   "base": 0.21428802741040576,
+   "p": 0.00012990105869362836,
+   "holm": 0.0010392084695490268
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Regret",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 21.13573535087248,
+   "base": 37.7371244160973,
+   "p": 0.0001515512351425664,
+   "holm": 0.0010392084695490268
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "CF RMSE",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.8863064572447374,
+   "base": 1.1027617038874942,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 5.632420514313076,
+   "base": 13.437626198416575,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 4.259287444719851,
+   "base": 11.772082640109478,
+   "p": 1.082508822446903e-05,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Effect skill",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.4917397078394152,
+   "base": 0.2879854486415187,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Regret",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 21.13573535087248,
+   "base": 24.87810370540927,
+   "p": 0.001271947866375111,
+   "holm": 0.002543895732750222
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "CF RMSE",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.8863064572447374,
+   "base": 1.0654472990109891,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 5.632420514313076,
+   "base": 9.666683212920763,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 4.259287444719851,
+   "base": 9.04039137441914,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Effect skill",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.4917397078394152,
+   "base": 0.21562440348602677,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Regret",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 21.13573535087248,
+   "base": 45.810984770920115,
+   "p": 0.0017428392041395138,
+   "holm": 0.002543895732750222
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "CF RMSE",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 0.8863064572447374,
+   "base": 1.1640760274298685,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 5.632420514313076,
+   "base": 14.432154932870677,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    10,
+    10
+   ],
+   "complete": true,
+   "grey": 4.259287444719851,
+   "base": 13.877524212030554,
+   "p": 5.412544112234515e-06,
+   "holm": 0.0002165017644893806
+  }
+ ],
+ "all": [
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Effect skill",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.6259470303359096,
+   "base": 0.31296405173517733,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Regret",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 1.688955460062548,
+   "base": 2.185639731188019,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "CF RMSE",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.38346750294760035,
+   "base": 0.4025154674958965,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 1.5590526018867095,
+   "base": 1.9194561062356785,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.7129907094016131,
+   "base": 1.0318751092302183,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Effect skill",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.6259470303359096,
+   "base": 0.33546473514613573,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Regret",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 1.688955460062548,
+   "base": 2.330660254304734,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "CF RMSE",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.38346750294760035,
+   "base": 0.42226731147190877,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 1.5590526018867095,
+   "base": 2.0408603303789543,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.7129907094016131,
+   "base": 1.1059259852103251,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Effect skill",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.6259470303359096,
+   "base": 0.3294841128003687,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Regret",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 1.688955460062548,
+   "base": 2.4145872767734247,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "CF RMSE",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.38346750294760035,
+   "base": 0.41159888050789467,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 1.5590526018867095,
+   "base": 2.049610760661855,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.7129907094016131,
+   "base": 1.210305746996821,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Effect skill",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.6259470303359096,
+   "base": 0.5496266111519358,
+   "p": 9.999950000249999e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Regret",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 1.688955460062548,
+   "base": 2.484240034406949,
+   "p": 9.999950000249999e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "CF RMSE",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.38346750294760035,
+   "base": 0.4105336693803008,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 1.5590526018867095,
+   "base": 2.0242826366102604,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.7129907094016131,
+   "base": 0.9582062927338769,
+   "p": 9.999950000249999e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Effect skill",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.4871413739597207,
+   "base": 0.28037938200679785,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Regret",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 20.946466644724428,
+   "base": 28.57228719863543,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "CF RMSE",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.8846452427183193,
+   "base": 1.0829155761557065,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 5.610892252455894,
+   "base": 10.63871293946785,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 4.260328140017374,
+   "base": 10.459716162290613,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Effect skill",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.4871413739597207,
+   "base": 0.2880494794148563,
+   "p": 8.999955000224999e-05,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Regret",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 20.946466644724428,
+   "base": 33.6991541901012,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "CF RMSE",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.8846452427183193,
+   "base": 1.0863395549507686,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 5.610892252455894,
+   "base": 11.490551683689311,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 4.260328140017374,
+   "base": 9.708858095853659,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Effect skill",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.4871413739597207,
+   "base": 0.3085837278961383,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Regret",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 20.946466644724428,
+   "base": 24.754806486044874,
+   "p": 9.999950000249999e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "CF RMSE",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.8846452427183193,
+   "base": 1.0583078870248375,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 5.610892252455894,
+   "base": 9.366605801132215,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 4.260328140017374,
+   "base": 8.608007706842338,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Effect skill",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.4871413739597207,
+   "base": 0.17668950086592522,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Regret",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 20.946466644724428,
+   "base": 39.962944176059494,
+   "p": 0.00010999945000274999,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "CF RMSE",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 0.8846452427183193,
+   "base": 1.1606735215582369,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 5.610892252455894,
+   "base": 14.63237173320925,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    15,
+    15
+   ],
+   "complete": true,
+   "grey": 4.260328140017374,
+   "base": 13.955805763007517,
+   "p": 4.9999750001249995e-06,
+   "holm": 0.00019999900000499998
+  }
+ ]
+}

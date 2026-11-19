@@ -1,0 +1,1391 @@
+[
+ {
+  "env": "glucose",
+  "lam": 0.0,
+  "model": "crn",
+  "seeds": 3,
+  "skill_no_drug": 0.37106169217190693,
+  "skill_dose_up": 0.4656063347156781,
+  "skill_strong": 0.4866657311013555,
+  "cfcov_worst": 0.8994135802469135,
+  "regret_margin": 9.570406250021346,
+  "hazard_recall": 0.4696969696969697,
+  "course_worst": 0.8296842940008211,
+  "direction_worst": 1.0,
+  "rand_gap": 1.119200223317076,
+  "rand_cov": 0.8805852962169879,
+  "fails": {
+   "benchmark": [
+    "hazard_recall=0.47"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.0,
+  "model": "greybox",
+  "seeds": 3,
+  "skill_no_drug": 0.3742442983216732,
+  "skill_dose_up": 0.44529576531907994,
+  "skill_strong": 0.4581912606356921,
+  "cfcov_worst": 0.8665123456790124,
+  "regret_margin": 11.361114673282806,
+  "hazard_recall": 0.5643939393939394,
+  "course_worst": 0.6385139608919933,
+  "direction_worst": 1.0,
+  "rand_gap": 1.103190307029708,
+  "rand_cov": 0.8600999286224126,
+  "fails": {
+   "benchmark": [
+    "hazard_recall=0.56"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.0,
+  "model": "gru",
+  "seeds": 3,
+  "skill_no_drug": 0.39402626476261343,
+  "skill_dose_up": 0.48425851232034384,
+  "skill_strong": 0.49959576432003316,
+  "cfcov_worst": 0.8975462962962963,
+  "regret_margin": 10.061542638452737,
+  "hazard_recall": 0.5454545454545455,
+  "course_worst": 0.8569111567315848,
+  "direction_worst": 1.0,
+  "rand_gap": 1.1090712845133335,
+  "rand_cov": 0.8842255531763026,
+  "fails": {
+   "benchmark": [
+    "hazard_recall=0.55"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.0,
+  "model": "gru-ode",
+  "seeds": 3,
+  "skill_no_drug": 0.4169459112902033,
+  "skill_dose_up": 0.509989343683893,
+  "skill_strong": 0.5197448418036206,
+  "cfcov_worst": 0.8897993827160494,
+  "regret_margin": 10.739724818978607,
+  "hazard_recall": 0.4318181818181818,
+  "course_worst": 0.8797364754938992,
+  "direction_worst": 1.0,
+  "rand_gap": 1.0951236674140332,
+  "rand_cov": 0.877587437544611,
+  "fails": {
+   "benchmark": [
+    "hazard_recall=0.43"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.25,
+  "model": "crn",
+  "seeds": 3,
+  "skill_no_drug": -0.0332879578793388,
+  "skill_dose_up": -0.07472995385971548,
+  "skill_strong": 0.10275373533319054,
+  "cfcov_worst": 0.7742592592592593,
+  "regret_margin": -34.39825365744397,
+  "hazard_recall": 0.23931623931623933,
+  "course_worst": 0.03797848150676519,
+  "direction_worst": 0.5755555555555556,
+  "rand_gap": 1.3179343086585555,
+  "rand_cov": 0.8758029978586724,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-0.03",
+    "skill_dose_up=-0.07",
+    "cfcov_worst=0.77",
+    "regret_margin=-34.40",
+    "hazard_recall=0.24",
+    "course_worst=0.04"
+   ],
+   "deployable": [
+    "direction_worst=0.58",
+    "rand_gap=1.32"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.25,
+  "model": "greybox",
+  "seeds": 3,
+  "skill_no_drug": 0.34294883530293935,
+  "skill_dose_up": 0.46322475075481073,
+  "skill_strong": 0.48069206936886405,
+  "cfcov_worst": 0.8502777777777778,
+  "regret_margin": 11.038832894182699,
+  "hazard_recall": 0.6538461538461539,
+  "course_worst": 0.630995751448871,
+  "direction_worst": 1.0,
+  "rand_gap": 1.1870126778808274,
+  "rand_cov": 0.8730192719486082,
+  "fails": {
+   "benchmark": [
+    "hazard_recall=0.65"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.25,
+  "model": "gru",
+  "seeds": 3,
+  "skill_no_drug": -0.02194071590805143,
+  "skill_dose_up": -0.04323644448478544,
+  "skill_strong": 0.13585865742992856,
+  "cfcov_worst": 0.7597222222222222,
+  "regret_margin": -28.721838273314113,
+  "hazard_recall": 0.31196581196581197,
+  "course_worst": 0.0952594131775587,
+  "direction_worst": 0.6377777777777778,
+  "rand_gap": 1.3223221122327395,
+  "rand_cov": 0.8771591720199857,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-0.02",
+    "skill_dose_up=-0.04",
+    "cfcov_worst=0.76",
+    "regret_margin=-28.72",
+    "hazard_recall=0.31",
+    "course_worst=0.10"
+   ],
+   "deployable": [
+    "direction_worst=0.64",
+    "rand_gap=1.32"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.25,
+  "model": "gru-ode",
+  "seeds": 3,
+  "skill_no_drug": 0.21230519719855365,
+  "skill_dose_up": 0.27315262318157807,
+  "skill_strong": 0.3358406326049023,
+  "cfcov_worst": 0.8284722222222223,
+  "regret_margin": 11.42292669644216,
+  "hazard_recall": 0.2735042735042735,
+  "course_worst": 0.3624379532281228,
+  "direction_worst": 0.9988888888888889,
+  "rand_gap": 1.20912374550564,
+  "rand_cov": 0.8772305496074232,
+  "fails": {
+   "benchmark": [
+    "hazard_recall=0.27",
+    "course_worst=0.36"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.5,
+  "model": "crn",
+  "seeds": 3,
+  "skill_no_drug": -0.7150416401426155,
+  "skill_dose_up": -1.225672409746874,
+  "skill_strong": -1.135975943377047,
+  "cfcov_worst": 0.5779475308641976,
+  "regret_margin": -60.198653359710214,
+  "hazard_recall": 0.0,
+  "course_worst": -1.3664126785975004,
+  "direction_worst": 0.014444444444444446,
+  "rand_gap": 2.148038616622021,
+  "rand_cov": 0.8798715203426124,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-0.72",
+    "skill_dose_up=-1.23",
+    "skill_strong=-1.14",
+    "cfcov_worst=0.58",
+    "regret_margin=-60.20",
+    "hazard_recall=0.00",
+    "course_worst=-1.37"
+   ],
+   "deployable": [
+    "direction_worst=0.01",
+    "rand_gap=2.15"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.5,
+  "model": "greybox",
+  "seeds": 3,
+  "skill_no_drug": 0.3990182109101115,
+  "skill_dose_up": 0.493211170381179,
+  "skill_strong": 0.49320064522863266,
+  "cfcov_worst": 0.8690123456790123,
+  "regret_margin": 6.920231394169027,
+  "hazard_recall": 0.4840182648401826,
+  "course_worst": 0.5819503439998013,
+  "direction_worst": 1.0,
+  "rand_gap": 1.0894151944003934,
+  "rand_cov": 0.8673804425410421,
+  "fails": {
+   "benchmark": [
+    "hazard_recall=0.48"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.5,
+  "model": "gru",
+  "seeds": 3,
+  "skill_no_drug": -0.802098087974918,
+  "skill_dose_up": -1.4078611643300338,
+  "skill_strong": -1.336816346535599,
+  "cfcov_worst": 0.5130401234567901,
+  "regret_margin": -51.86761063831593,
+  "hazard_recall": 0.0091324200913242,
+  "course_worst": -1.5917355449926784,
+  "direction_worst": 0.0077777777777777776,
+  "rand_gap": 2.060735693634883,
+  "rand_cov": 0.8839400428265525,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-0.80",
+    "skill_dose_up=-1.41",
+    "skill_strong=-1.34",
+    "cfcov_worst=0.51",
+    "regret_margin=-51.87",
+    "hazard_recall=0.01",
+    "course_worst=-1.59"
+   ],
+   "deployable": [
+    "direction_worst=0.01",
+    "rand_gap=2.06"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.5,
+  "model": "gru-ode",
+  "seeds": 3,
+  "skill_no_drug": -0.41462559674291755,
+  "skill_dose_up": -0.6960116944081717,
+  "skill_strong": -0.6394768692650042,
+  "cfcov_worst": 0.5855092592592592,
+  "regret_margin": -73.71321464783367,
+  "hazard_recall": 0.0091324200913242,
+  "course_worst": -0.8539343516677491,
+  "direction_worst": 0.0044444444444444444,
+  "rand_gap": 1.5858557202614814,
+  "rand_cov": 0.8667380442541042,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-0.41",
+    "skill_dose_up=-0.70",
+    "skill_strong=-0.64",
+    "cfcov_worst=0.59",
+    "regret_margin=-73.71",
+    "hazard_recall=0.01",
+    "course_worst=-0.85"
+   ],
+   "deployable": [
+    "direction_worst=0.00",
+    "rand_gap=1.59"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.75,
+  "model": "crn",
+  "seeds": 3,
+  "skill_no_drug": -1.0478327413824315,
+  "skill_dose_up": -1.9862227680902362,
+  "skill_strong": -1.720667191491858,
+  "cfcov_worst": 0.6959567901234568,
+  "regret_margin": -51.14034978399712,
+  "hazard_recall": 0.0,
+  "course_worst": -2.207093095398849,
+  "direction_worst": 0.013333333333333334,
+  "rand_gap": 3.591676524768834,
+  "rand_cov": 0.8961456102783726,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-1.05",
+    "skill_dose_up=-1.99",
+    "skill_strong=-1.72",
+    "cfcov_worst=0.70",
+    "regret_margin=-51.14",
+    "hazard_recall=0.00",
+    "course_worst=-2.21"
+   ],
+   "deployable": [
+    "direction_worst=0.01",
+    "rand_gap=3.59"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.75,
+  "model": "greybox",
+  "seeds": 3,
+  "skill_no_drug": 0.4164936909734149,
+  "skill_dose_up": 0.5194445584247991,
+  "skill_strong": 0.5252819331878551,
+  "cfcov_worst": 0.8566512345679013,
+  "regret_margin": 5.396167031592366,
+  "hazard_recall": 0.5128205128205128,
+  "course_worst": 0.6490201353206446,
+  "direction_worst": 1.0,
+  "rand_gap": 1.0333185092143433,
+  "rand_cov": 0.8576017130620985,
+  "fails": {
+   "benchmark": [
+    "hazard_recall=0.51"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.75,
+  "model": "greybox-actres",
+  "seeds": 3,
+  "skill_no_drug": -0.42717713154135845,
+  "skill_dose_up": -0.6854483167184295,
+  "skill_strong": -0.8833954656402291,
+  "cfcov_worst": 0.7564197530864197,
+  "regret_margin": -34.84434759191558,
+  "hazard_recall": 0.005128205128205128,
+  "course_worst": -0.8842292349996169,
+  "direction_worst": 0.4766666666666667,
+  "rand_gap": 1.9296600104383599,
+  "rand_cov": 0.8668094218415417,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-0.43",
+    "skill_dose_up=-0.69",
+    "skill_strong=-0.88",
+    "cfcov_worst=0.76",
+    "regret_margin=-34.84",
+    "hazard_recall=0.01",
+    "course_worst=-0.88"
+   ],
+   "deployable": [
+    "direction_worst=0.48",
+    "rand_gap=1.93"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.75,
+  "model": "greybox-latent",
+  "seeds": 3,
+  "skill_no_drug": 0.011864996663575248,
+  "skill_dose_up": 0.01743039811266182,
+  "skill_strong": 0.021184593743283003,
+  "cfcov_worst": 0.8624537037037037,
+  "regret_margin": -25.83316368812549,
+  "hazard_recall": 0.005128205128205128,
+  "course_worst": 0.014627062071571658,
+  "direction_worst": 0.7555555555555555,
+  "rand_gap": 1.4758011031350753,
+  "rand_cov": 0.9087080656673805,
+  "fails": {
+   "benchmark": [
+    "regret_margin=-25.83",
+    "hazard_recall=0.01",
+    "course_worst=0.01"
+   ],
+   "deployable": [
+    "direction_worst=0.76",
+    "rand_gap=1.48"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.75,
+  "model": "greybox-leak",
+  "seeds": 3,
+  "skill_no_drug": -0.4070950202583787,
+  "skill_dose_up": -0.6829743592301988,
+  "skill_strong": -0.8291558746178367,
+  "cfcov_worst": 0.77625,
+  "regret_margin": -28.152155226069286,
+  "hazard_recall": 0.010256410256410256,
+  "course_worst": -0.8112909408114141,
+  "direction_worst": 0.5633333333333334,
+  "rand_gap": 1.9430016630080118,
+  "rand_cov": 0.8655246252676659,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-0.41",
+    "skill_dose_up=-0.68",
+    "skill_strong=-0.83",
+    "cfcov_worst=0.78",
+    "regret_margin=-28.15",
+    "hazard_recall=0.01",
+    "course_worst=-0.81"
+   ],
+   "deployable": [
+    "direction_worst=0.56",
+    "rand_gap=1.94"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.75,
+  "model": "greybox-res",
+  "seeds": 3,
+  "skill_no_drug": 0.3834955758071003,
+  "skill_dose_up": 0.5012901782780348,
+  "skill_strong": 0.5208853491677795,
+  "cfcov_worst": 0.8535493827160494,
+  "regret_margin": 5.887727605115855,
+  "hazard_recall": 0.4153846153846154,
+  "course_worst": 0.639595894021384,
+  "direction_worst": 1.0,
+  "rand_gap": 1.061866425732108,
+  "rand_cov": 0.8586009992862241,
+  "fails": {
+   "benchmark": [
+    "hazard_recall=0.42"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.75,
+  "model": "gru",
+  "seeds": 3,
+  "skill_no_drug": -1.0345851134460802,
+  "skill_dose_up": -2.143215104712405,
+  "skill_strong": -1.822699351926478,
+  "cfcov_worst": 0.6441358024691358,
+  "regret_margin": -53.12150696169659,
+  "hazard_recall": 0.0,
+  "course_worst": -2.318777178309901,
+  "direction_worst": 0.008888888888888889,
+  "rand_gap": 3.806130360832409,
+  "rand_cov": 0.8887223411848679,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-1.03",
+    "skill_dose_up=-2.14",
+    "skill_strong=-1.82",
+    "cfcov_worst=0.64",
+    "regret_margin=-53.12",
+    "hazard_recall=0.00",
+    "course_worst=-2.32"
+   ],
+   "deployable": [
+    "direction_worst=0.01",
+    "rand_gap=3.81"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 0.75,
+  "model": "gru-ode",
+  "seeds": 3,
+  "skill_no_drug": -0.9545045173424815,
+  "skill_dose_up": -1.607516313338843,
+  "skill_strong": -1.665230080924815,
+  "cfcov_worst": 0.7206018518518519,
+  "regret_margin": -52.072248527668606,
+  "hazard_recall": 0.0,
+  "course_worst": -1.894114619329793,
+  "direction_worst": 0.0011111111111111111,
+  "rand_gap": 3.1187353336841275,
+  "rand_cov": 0.8967880085653105,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-0.95",
+    "skill_dose_up=-1.61",
+    "skill_strong=-1.67",
+    "cfcov_worst=0.72",
+    "regret_margin=-52.07",
+    "hazard_recall=0.00",
+    "course_worst=-1.89"
+   ],
+   "deployable": [
+    "direction_worst=0.00",
+    "rand_gap=3.12"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 1.0,
+  "model": "crn",
+  "seeds": 3,
+  "skill_no_drug": -1.1494195617330825,
+  "skill_dose_up": -1.8217060654897301,
+  "skill_strong": -1.318378101474158,
+  "cfcov_worst": 0.8724537037037037,
+  "regret_margin": -46.83287218592595,
+  "hazard_recall": 0.0,
+  "course_worst": -2.3685463516110428,
+  "direction_worst": 0.06666666666666667,
+  "rand_gap": 5.458606568645095,
+  "rand_cov": 0.9169878658101357,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-1.15",
+    "skill_dose_up=-1.82",
+    "skill_strong=-1.32",
+    "regret_margin=-46.83",
+    "hazard_recall=0.00",
+    "course_worst=-2.37"
+   ],
+   "deployable": [
+    "direction_worst=0.07",
+    "rand_gap=5.46"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 1.0,
+  "model": "greybox",
+  "seeds": 3,
+  "skill_no_drug": 0.43871731185789953,
+  "skill_dose_up": 0.5031755968989007,
+  "skill_strong": 0.5302664517164768,
+  "cfcov_worst": 0.8386574074074075,
+  "regret_margin": 4.921805023448936,
+  "hazard_recall": 0.4931506849315068,
+  "course_worst": 0.5899172104610539,
+  "direction_worst": 1.0,
+  "rand_gap": 1.016113232207436,
+  "rand_cov": 0.8577444682369736,
+  "fails": {
+   "benchmark": [
+    "hazard_recall=0.49"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 1.0,
+  "model": "gru",
+  "seeds": 3,
+  "skill_no_drug": -1.129638188423901,
+  "skill_dose_up": -2.0590882033953144,
+  "skill_strong": -1.3106007692551798,
+  "cfcov_worst": 0.8442283950617284,
+  "regret_margin": -51.08510169952114,
+  "hazard_recall": 0.0,
+  "course_worst": -2.4416967180501836,
+  "direction_worst": 0.060000000000000005,
+  "rand_gap": 5.679015847790178,
+  "rand_cov": 0.9119200571020699,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-1.13",
+    "skill_dose_up=-2.06",
+    "skill_strong=-1.31",
+    "regret_margin=-51.09",
+    "hazard_recall=0.00",
+    "course_worst=-2.44"
+   ],
+   "deployable": [
+    "direction_worst=0.06",
+    "rand_gap=5.68"
+   ]
+  }
+ },
+ {
+  "env": "glucose",
+  "lam": 1.0,
+  "model": "gru-ode",
+  "seeds": 3,
+  "skill_no_drug": -0.7641780802184458,
+  "skill_dose_up": -1.0314831490260448,
+  "skill_strong": -0.9839242868722636,
+  "cfcov_worst": 0.8091358024691359,
+  "regret_margin": -52.56005966160425,
+  "hazard_recall": 0.0045662100456621,
+  "course_worst": -1.3635287368905538,
+  "direction_worst": 0.18222222222222223,
+  "rand_gap": 2.784121708141824,
+  "rand_cov": 0.8940756602426838,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-0.76",
+    "skill_dose_up=-1.03",
+    "skill_strong=-0.98",
+    "regret_margin=-52.56",
+    "hazard_recall=0.00",
+    "course_worst=-1.36"
+   ],
+   "deployable": [
+    "direction_worst=0.18",
+    "rand_gap=2.78"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.0,
+  "model": "crn",
+  "seeds": 3,
+  "skill_no_drug": 0.6040188639172207,
+  "skill_dose_up": 0.47345443869994036,
+  "skill_strong": 0.6149352198502817,
+  "cfcov_worst": 0.8570555555555556,
+  "regret_margin": 5.369158230580369,
+  "hazard_recall": 0.8793650793650793,
+  "course_worst": 0.8031673612777125,
+  "direction_worst": 0.9922222222222222,
+  "rand_gap": 1.0485169508466339,
+  "rand_cov": 0.8963279518835074,
+  "fails": {
+   "benchmark": [],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.0,
+  "model": "greybox",
+  "seeds": 3,
+  "skill_no_drug": 0.6516211051996851,
+  "skill_dose_up": 0.6366055698480678,
+  "skill_strong": 0.6278496607198973,
+  "cfcov_worst": 0.7922592592592592,
+  "regret_margin": 5.309813348271111,
+  "hazard_recall": 0.892063492063492,
+  "course_worst": 0.7383000624243357,
+  "direction_worst": 1.0,
+  "rand_gap": 1.0430789578784163,
+  "rand_cov": 0.8877809433364988,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.79"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.0,
+  "model": "gru",
+  "seeds": 3,
+  "skill_no_drug": 0.6237075415667428,
+  "skill_dose_up": 0.49342860427609897,
+  "skill_strong": 0.6227280152745266,
+  "cfcov_worst": 0.8437037037037037,
+  "regret_margin": 5.390595990152144,
+  "hazard_recall": 0.8777777777777778,
+  "course_worst": 0.8133655545846717,
+  "direction_worst": 0.9888888888888888,
+  "rand_gap": 1.0482076004740084,
+  "rand_cov": 0.9017094017094017,
+  "fails": {
+   "benchmark": [],
+   "deployable": [
+    "direction_worst=0.99"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.0,
+  "model": "gru-ode",
+  "seeds": 3,
+  "skill_no_drug": 0.5620302442329216,
+  "skill_dose_up": 0.38756569879518626,
+  "skill_strong": 0.5745566968452058,
+  "cfcov_worst": 0.8281111111111111,
+  "regret_margin": 5.274886325622807,
+  "hazard_recall": 0.8650793650793651,
+  "course_worst": 0.8003606710090926,
+  "direction_worst": 0.9944444444444445,
+  "rand_gap": 1.047838370122616,
+  "rand_cov": 0.888888888888889,
+  "fails": {
+   "benchmark": [],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.25,
+  "model": "crn",
+  "seeds": 3,
+  "skill_no_drug": 0.46207901244311916,
+  "skill_dose_up": 0.4499371105617123,
+  "skill_strong": 0.6368513316736222,
+  "cfcov_worst": 0.7492407407407408,
+  "regret_margin": 4.774744752582945,
+  "hazard_recall": 0.7452830188679245,
+  "course_worst": 0.4520002495929277,
+  "direction_worst": 0.9966666666666667,
+  "rand_gap": 1.1787249494165324,
+  "rand_cov": 0.8980690091801202,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.75",
+    "course_worst=0.45"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.25,
+  "model": "greybox",
+  "seeds": 3,
+  "skill_no_drug": 0.6171204731260841,
+  "skill_dose_up": 0.6569630733377966,
+  "skill_strong": 0.6669107918340341,
+  "cfcov_worst": 0.7934444444444444,
+  "regret_margin": 4.992487152526748,
+  "hazard_recall": 0.8474842767295597,
+  "course_worst": 0.7217062466048484,
+  "direction_worst": 1.0,
+  "rand_gap": 1.1510288527781667,
+  "rand_cov": 0.8880974992086104,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.79"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.25,
+  "model": "gru",
+  "seeds": 3,
+  "skill_no_drug": 0.49445678687785455,
+  "skill_dose_up": 0.4845078562272171,
+  "skill_strong": 0.6453477577597807,
+  "cfcov_worst": 0.7474074074074074,
+  "regret_margin": 4.780078105475666,
+  "hazard_recall": 0.7641509433962264,
+  "course_worst": 0.36753403700795834,
+  "direction_worst": 0.9955555555555555,
+  "rand_gap": 1.1849694940105164,
+  "rand_cov": 0.8974358974358975,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.75",
+    "course_worst=0.37"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.25,
+  "model": "gru-ode",
+  "seeds": 3,
+  "skill_no_drug": 0.4492139781860616,
+  "skill_dose_up": 0.41862478872701175,
+  "skill_strong": 0.5828982820138715,
+  "cfcov_worst": 0.7418148148148148,
+  "regret_margin": 4.522730599310512,
+  "hazard_recall": 0.7248427672955975,
+  "course_worst": 0.37833321484204374,
+  "direction_worst": 1.0,
+  "rand_gap": 1.192245358062121,
+  "rand_cov": 0.8934789490345046,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.74",
+    "course_worst=0.38"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.5,
+  "model": "crn",
+  "seeds": 3,
+  "skill_no_drug": 0.3380414861563824,
+  "skill_dose_up": 0.4828626155080805,
+  "skill_strong": 0.581122720794691,
+  "cfcov_worst": 0.6265,
+  "regret_margin": 4.116753418318828,
+  "hazard_recall": 0.6587677725118484,
+  "course_worst": -0.9365075339025425,
+  "direction_worst": 0.13,
+  "rand_gap": 1.4500256638371685,
+  "rand_cov": 0.8912630579297246,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.63",
+    "hazard_recall=0.66",
+    "course_worst=-0.94"
+   ],
+   "deployable": [
+    "direction_worst=0.13",
+    "rand_gap=1.45"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.5,
+  "model": "greybox",
+  "seeds": 3,
+  "skill_no_drug": 0.6040201605383944,
+  "skill_dose_up": 0.6456828768557743,
+  "skill_strong": 0.6462691206327267,
+  "cfcov_worst": 0.7877962962962963,
+  "regret_margin": 4.73019935495833,
+  "hazard_recall": 0.8183254344391785,
+  "course_worst": 0.7370775178316953,
+  "direction_worst": 1.0,
+  "rand_gap": 1.1908418586676202,
+  "rand_cov": 0.8926875593542261,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.79"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.5,
+  "model": "gru",
+  "seeds": 3,
+  "skill_no_drug": 0.3665863124551671,
+  "skill_dose_up": 0.49384625032218465,
+  "skill_strong": 0.5919461969687948,
+  "cfcov_worst": 0.6273703703703704,
+  "regret_margin": 4.293627090088175,
+  "hazard_recall": 0.674565560821485,
+  "course_worst": -0.7163758885861198,
+  "direction_worst": 0.14555555555555555,
+  "rand_gap": 1.4590534952985468,
+  "rand_cov": 0.9006014561570117,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.63",
+    "hazard_recall=0.67",
+    "course_worst=-0.72"
+   ],
+   "deployable": [
+    "direction_worst=0.15",
+    "rand_gap=1.46"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.5,
+  "model": "gru-ode",
+  "seeds": 3,
+  "skill_no_drug": 0.25779388005115006,
+  "skill_dose_up": 0.39125492741580264,
+  "skill_strong": 0.46038767698052846,
+  "cfcov_worst": 0.5989444444444445,
+  "regret_margin": 3.9558295346464076,
+  "hazard_recall": 0.6303317535545023,
+  "course_worst": -0.20131779259931842,
+  "direction_worst": 0.36333333333333334,
+  "rand_gap": 1.4683739644146852,
+  "rand_cov": 0.8896802785691674,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.60",
+    "hazard_recall=0.63",
+    "course_worst=-0.20"
+   ],
+   "deployable": [
+    "direction_worst=0.36",
+    "rand_gap=1.47"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "crn",
+  "seeds": 3,
+  "skill_no_drug": 0.15009792672418565,
+  "skill_dose_up": 0.2876526544463613,
+  "skill_strong": 0.30176658377965576,
+  "cfcov_worst": 0.5403333333333333,
+  "regret_margin": 2.679867858383674,
+  "hazard_recall": 0.4460093896713615,
+  "course_worst": -2.29271000536654,
+  "direction_worst": 0.0033333333333333335,
+  "rand_gap": 2.1467249744055583,
+  "rand_cov": 0.8985438429882874,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.54",
+    "hazard_recall=0.45",
+    "course_worst=-2.29"
+   ],
+   "deployable": [
+    "direction_worst=0.00",
+    "rand_gap=2.15"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox",
+  "seeds": 3,
+  "skill_no_drug": 0.5960379479343885,
+  "skill_dose_up": 0.6489879376835155,
+  "skill_strong": 0.6509236984171853,
+  "cfcov_worst": 0.7912777777777777,
+  "regret_margin": 4.524431165461723,
+  "hazard_recall": 0.7965571205007824,
+  "course_worst": 0.5335423689293609,
+  "direction_worst": 1.0,
+  "rand_gap": 1.250890506299477,
+  "rand_cov": 0.896011396011396,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.79"
+   ],
+   "deployable": [
+    "rand_gap=1.25"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox-actres",
+  "seeds": 3,
+  "skill_no_drug": 0.5234963807799186,
+  "skill_dose_up": 0.5476547918493342,
+  "skill_strong": 0.6082906726558628,
+  "cfcov_worst": 0.6958518518518518,
+  "regret_margin": 3.9646130335908567,
+  "hazard_recall": 0.6964006259780907,
+  "course_worst": -1.2872470671540595,
+  "direction_worst": 0.12111111111111111,
+  "rand_gap": 1.4627658477205052,
+  "rand_cov": 0.8999683444127888,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.70",
+    "hazard_recall=0.70",
+    "course_worst=-1.29"
+   ],
+   "deployable": [
+    "direction_worst=0.12",
+    "rand_gap=1.46"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox-latent",
+  "seeds": 3,
+  "skill_no_drug": 0.12865340725466082,
+  "skill_dose_up": 0.1458258830347189,
+  "skill_strong": 0.1950527950597087,
+  "cfcov_worst": 0.47455555555555556,
+  "regret_margin": 2.1253411756670424,
+  "hazard_recall": 0.38497652582159625,
+  "course_worst": -0.15906040426168003,
+  "direction_worst": 0.36,
+  "rand_gap": 1.7959825254528385,
+  "rand_cov": 0.9085153529597975,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.47",
+    "hazard_recall=0.38",
+    "course_worst=-0.16"
+   ],
+   "deployable": [
+    "direction_worst=0.36",
+    "rand_gap=1.80"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox-leak",
+  "seeds": 3,
+  "skill_no_drug": 0.5300431312384859,
+  "skill_dose_up": 0.5649090318448816,
+  "skill_strong": 0.6070120731982328,
+  "cfcov_worst": 0.6858518518518518,
+  "regret_margin": 3.9292455283049765,
+  "hazard_recall": 0.701095461658842,
+  "course_worst": -0.8285372248615397,
+  "direction_worst": 0.23,
+  "rand_gap": 1.431695474687463,
+  "rand_cov": 0.8982272871161759,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.69",
+    "course_worst=-0.83"
+   ],
+   "deployable": [
+    "direction_worst=0.23",
+    "rand_gap=1.43"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox-res",
+  "seeds": 3,
+  "skill_no_drug": 0.5950436076854487,
+  "skill_dose_up": 0.6507237154549522,
+  "skill_strong": 0.6483773834411115,
+  "cfcov_worst": 0.7945185185185185,
+  "regret_margin": 4.7363996973552505,
+  "hazard_recall": 0.7996870109546166,
+  "course_worst": 0.47473884985648496,
+  "direction_worst": 1.0,
+  "rand_gap": 1.2500513697610551,
+  "rand_cov": 0.8928458372902818,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.79",
+    "course_worst=0.47"
+   ],
+   "deployable": [
+    "rand_gap=1.25"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox_emax_scale0.25",
+  "seeds": 3,
+  "skill_no_drug": 0.3511146249776727,
+  "skill_dose_up": 0.3860341699447125,
+  "skill_strong": 0.44220319531207314,
+  "cfcov_worst": 0.7228703703703704,
+  "regret_margin": 3.179429430844977,
+  "hazard_recall": 0.5414710485133021,
+  "course_worst": 0.04723019068910331,
+  "direction_worst": 1.0,
+  "rand_gap": 1.4592303624657335,
+  "rand_cov": 0.8994935106046217,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.72",
+    "hazard_recall=0.54",
+    "course_worst=0.05"
+   ],
+   "deployable": [
+    "rand_gap=1.46"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox_emax_scale0.5",
+  "seeds": 3,
+  "skill_no_drug": 0.5449427729694826,
+  "skill_dose_up": 0.6057795630701074,
+  "skill_strong": 0.6419821808731428,
+  "cfcov_worst": 0.7808148148148149,
+  "regret_margin": 4.349831958369406,
+  "hazard_recall": 0.7527386541471048,
+  "course_worst": 0.1019045466906082,
+  "direction_worst": 1.0,
+  "rand_gap": 1.3155948116162688,
+  "rand_cov": 0.8988603988603988,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.78",
+    "course_worst=0.10"
+   ],
+   "deployable": [
+    "rand_gap=1.32"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox_emax_scale2",
+  "seeds": 3,
+  "skill_no_drug": 0.5929220184597097,
+  "skill_dose_up": 0.6310702555800062,
+  "skill_strong": 0.6144212482070217,
+  "cfcov_worst": 0.7727037037037037,
+  "regret_margin": 4.484348353032825,
+  "hazard_recall": 0.7730829420970265,
+  "course_worst": 0.7376496637854052,
+  "direction_worst": 1.0,
+  "rand_gap": 1.2173221674667247,
+  "rand_cov": 0.891579613801836,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.77"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox_emax_scale4",
+  "seeds": 3,
+  "skill_no_drug": 0.532633517092507,
+  "skill_dose_up": 0.4673436350234167,
+  "skill_strong": 0.44551370436405074,
+  "cfcov_worst": 0.7475,
+  "regret_margin": 4.043303862041719,
+  "hazard_recall": 0.7120500782472614,
+  "course_worst": 0.4188753633352529,
+  "direction_worst": 1.0,
+  "rand_gap": 1.1993325480160382,
+  "rand_cov": 0.889363722697056,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.75",
+    "course_worst=0.42"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox_hill_scale0.5",
+  "seeds": 3,
+  "skill_no_drug": 0.6677303536130288,
+  "skill_dose_up": 0.5752823338190779,
+  "skill_strong": 0.6139510243826943,
+  "cfcov_worst": 0.8149259259259259,
+  "regret_margin": 4.750333950762596,
+  "hazard_recall": 0.9577464788732394,
+  "course_worst": 0.08978175216072724,
+  "direction_worst": 1.0,
+  "rand_gap": 1.309296286598997,
+  "rand_cov": 0.893795504906616,
+  "fails": {
+   "benchmark": [
+    "course_worst=0.09"
+   ],
+   "deployable": [
+    "rand_gap=1.31"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "greybox_hill_scale2",
+  "seeds": 3,
+  "skill_no_drug": 0.5400689600032064,
+  "skill_dose_up": 0.5172270025743342,
+  "skill_strong": 0.6355377833723879,
+  "cfcov_worst": 0.7707222222222222,
+  "regret_margin": 4.323990271271435,
+  "hazard_recall": 0.730829420970266,
+  "course_worst": 0.8296002456362208,
+  "direction_worst": 1.0,
+  "rand_gap": 1.2246153910853066,
+  "rand_cov": 0.8969610636277303,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.77"
+   ],
+   "deployable": []
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "gru",
+  "seeds": 3,
+  "skill_no_drug": 0.12327036013887745,
+  "skill_dose_up": 0.22926696357547738,
+  "skill_strong": 0.2410558582720296,
+  "cfcov_worst": 0.540888888888889,
+  "regret_margin": 2.292374351265498,
+  "hazard_recall": 0.38341158059467917,
+  "course_worst": -1.9156936401151998,
+  "direction_worst": 0.0033333333333333335,
+  "rand_gap": 2.1781181516589245,
+  "rand_cov": 0.9086736308958531,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.54",
+    "hazard_recall=0.38",
+    "course_worst=-1.92"
+   ],
+   "deployable": [
+    "direction_worst=0.00",
+    "rand_gap=2.18"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 0.75,
+  "model": "gru-ode",
+  "seeds": 3,
+  "skill_no_drug": 0.058878742039018106,
+  "skill_dose_up": 0.10775141981109226,
+  "skill_strong": 0.1328780830228914,
+  "cfcov_worst": 0.5384444444444445,
+  "regret_margin": 1.777793155926603,
+  "hazard_recall": 0.30359937402190923,
+  "course_worst": -0.7490330792320513,
+  "direction_worst": 0.09111111111111111,
+  "rand_gap": 1.9919173109174924,
+  "rand_cov": 0.8944286166508388,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.54",
+    "hazard_recall=0.30",
+    "course_worst=-0.75"
+   ],
+   "deployable": [
+    "direction_worst=0.09",
+    "rand_gap=1.99"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 1.0,
+  "model": "crn",
+  "seeds": 3,
+  "skill_no_drug": 0.005336145668169349,
+  "skill_dose_up": -0.0031408279303184092,
+  "skill_strong": 0.012980582759577438,
+  "cfcov_worst": 0.6021666666666666,
+  "regret_margin": -3.3124987444376432,
+  "hazard_recall": 0.20344287949921752,
+  "course_worst": -2.167191312933029,
+  "direction_worst": 0.0044444444444444444,
+  "rand_gap": 3.041075014753316,
+  "rand_cov": 0.8977524533080088,
+  "fails": {
+   "benchmark": [
+    "skill_dose_up=-0.00",
+    "cfcov_worst=0.60",
+    "regret_margin=-3.31",
+    "hazard_recall=0.20",
+    "course_worst=-2.17"
+   ],
+   "deployable": [
+    "direction_worst=0.00",
+    "rand_gap=3.04"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 1.0,
+  "model": "greybox",
+  "seeds": 3,
+  "skill_no_drug": 0.5888878075233641,
+  "skill_dose_up": 0.637009080788781,
+  "skill_strong": 0.6459751510657905,
+  "cfcov_worst": 0.7922777777777777,
+  "regret_margin": 4.2128356825983335,
+  "hazard_recall": 0.7918622848200313,
+  "course_worst": 0.4399661357655944,
+  "direction_worst": 0.9966666666666667,
+  "rand_gap": 1.2620040744897998,
+  "rand_cov": 0.8961696739474517,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.79",
+    "course_worst=0.44"
+   ],
+   "deployable": [
+    "rand_gap=1.26"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 1.0,
+  "model": "gru",
+  "seeds": 3,
+  "skill_no_drug": 0.02787491459973949,
+  "skill_dose_up": 0.034799652663001925,
+  "skill_strong": 0.051213751157236254,
+  "cfcov_worst": 0.6070555555555556,
+  "regret_margin": -2.8933261236536407,
+  "hazard_recall": 0.2112676056338028,
+  "course_worst": -1.9488426293550392,
+  "direction_worst": 0.0,
+  "rand_gap": 3.0526374593255046,
+  "rand_cov": 0.9036087369420703,
+  "fails": {
+   "benchmark": [
+    "cfcov_worst=0.61",
+    "regret_margin=-2.89",
+    "hazard_recall=0.21",
+    "course_worst=-1.95"
+   ],
+   "deployable": [
+    "direction_worst=0.00",
+    "rand_gap=3.05"
+   ]
+  }
+ },
+ {
+  "env": "sepsis",
+  "lam": 1.0,
+  "model": "gru-ode",
+  "seeds": 3,
+  "skill_no_drug": -0.06026689247299669,
+  "skill_dose_up": -0.13005819743806968,
+  "skill_strong": -0.07442808577811921,
+  "cfcov_worst": 0.5565925925925926,
+  "regret_margin": -7.554422405271506,
+  "hazard_recall": 0.1486697965571205,
+  "course_worst": -0.9142759253319596,
+  "direction_worst": 0.0011111111111111111,
+  "rand_gap": 2.483089886917611,
+  "rand_cov": 0.8828743273187718,
+  "fails": {
+   "benchmark": [
+    "skill_no_drug=-0.06",
+    "skill_dose_up=-0.13",
+    "skill_strong=-0.07",
+    "cfcov_worst=0.56",
+    "regret_margin=-7.55",
+    "hazard_recall=0.15",
+    "course_worst=-0.91"
+   ],
+   "deployable": [
+    "direction_worst=0.00",
+    "rand_gap=2.48"
+   ]
+  }
+ }
+]

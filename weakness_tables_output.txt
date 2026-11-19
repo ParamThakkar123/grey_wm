@@ -1,0 +1,67 @@
+size sepsis greybox     n= 25 seeds=3 skill=0.63 regret_margin=4.1 cf_rmse=0.382 broken=False
+size sepsis greybox     n= 50 seeds=3 skill=0.64 regret_margin=4.2 cf_rmse=0.381 broken=False
+size sepsis greybox     n=100 seeds=3 skill=0.64 regret_margin=4.2 cf_rmse=0.380 broken=False
+size sepsis gru         n= 25 seeds=3 skill=0.02 regret_margin=-2.9 cf_rmse=0.629 broken=True
+size sepsis gru         n= 50 seeds=3 skill=0.02 regret_margin=-2.9 cf_rmse=0.629 broken=True
+size sepsis gru         n=100 seeds=3 skill=0.03 regret_margin=-2.9 cf_rmse=0.632 broken=True
+size sepsis gru+ft      n= 25 seeds=3 skill=0.43 regret_margin=2.9 cf_rmse=0.431 broken=False
+size sepsis gru+ft      n= 50 seeds=3 skill=0.41 regret_margin=2.8 cf_rmse=0.431 broken=False
+size sepsis gru+ft      n=100 seeds=3 skill=0.33 regret_margin=3.7 cf_rmse=0.396 broken=False
+size sepsis gru-ode+ft  n= 25 seeds=3 skill=0.09 regret_margin=0.2 cf_rmse=0.533 broken=False
+size sepsis gru-ode+ft  n= 50 seeds=3 skill=0.37 regret_margin=3.4 cf_rmse=0.449 broken=False
+size sepsis gru-ode+ft  n=100 seeds=3 skill=0.34 regret_margin=3.6 cf_rmse=0.423 broken=False
+size sepsis crn+ft      n= 25 seeds=3 skill=0.40 regret_margin=1.4 cf_rmse=0.475 broken=False
+size sepsis crn+ft      n= 50 seeds=3 skill=0.40 regret_margin=2.6 cf_rmse=0.444 broken=False
+size sepsis crn+ft      n=100 seeds=3 skill=0.32 regret_margin=3.6 cf_rmse=0.404 broken=False
+size glucose greybox     n= 25 seeds=3 skill=0.50 regret_margin=3.0 cf_rmse=0.895 broken=False
+size glucose greybox     n= 50 seeds=3 skill=0.50 regret_margin=5.4 cf_rmse=0.876 broken=False
+size glucose greybox     n=100 seeds=3 skill=0.50 regret_margin=4.9 cf_rmse=0.878 broken=False
+size glucose gru         n= 25 seeds=3 skill=-2.13 regret_margin=-54.5 cf_rmse=1.247 broken=True
+size glucose gru         n= 50 seeds=3 skill=-1.88 regret_margin=-54.5 cf_rmse=1.231 broken=True
+size glucose gru         n=100 seeds=3 skill=-2.06 regret_margin=-51.1 cf_rmse=1.239 broken=True
+size glucose gru+ft      n= 25 seeds=3 skill=0.27 regret_margin=-4.7 cf_rmse=1.110 broken=True
+size glucose gru+ft      n= 50 seeds=3 skill=-0.74 regret_margin=-35.8 cf_rmse=1.224 broken=True
+size glucose gru+ft      n=100 seeds=3 skill=0.41 regret_margin=3.6 cf_rmse=1.012 broken=False
+size glucose gru-ode+ft  n= 25 seeds=3 skill=0.09 regret_margin=-26.6 cf_rmse=1.166 broken=True
+size glucose gru-ode+ft  n= 50 seeds=3 skill=-0.14 regret_margin=-28.5 cf_rmse=1.183 broken=True
+size glucose gru-ode+ft  n=100 seeds=3 skill=0.41 regret_margin=-0.8 cf_rmse=1.076 broken=True
+size glucose crn+ft      n= 25 seeds=3 skill=0.26 regret_margin=-5.8 cf_rmse=1.094 broken=True
+size glucose crn+ft      n= 50 seeds=3 skill=-0.16 regret_margin=-13.8 cf_rmse=1.115 broken=True
+size glucose crn+ft      n=100 seeds=3 skill=0.32 regret_margin=-0.1 cf_rmse=1.056 broken=True
+misspec greybox                  seeds=3 bolus raw=1.64 cal=1.57 basal cal=0.99 k_bolus=0.95 k_basal=1.21 skill=0.52 gap=1.03 regret_margin=5.4 broken=False dir=1.00
+misspec greybox_emax_scale0.25   seeds=3 bolus raw=0.63 cal=1.05 basal cal=1.20 k_bolus=1.66 k_basal=4.87 skill=0.49 gap=1.03 regret_margin=3.7 broken=False dir=1.00
+misspec greybox_emax_scale0.5    seeds=3 bolus raw=1.03 cal=1.15 basal cal=0.98 k_bolus=1.10 k_basal=2.16 skill=0.52 gap=1.07 regret_margin=6.6 broken=False dir=1.00
+misspec greybox_emax_scale2      seeds=3 bolus raw=2.19 cal=1.81 basal cal=0.97 k_bolus=0.83 k_basal=0.83 skill=0.52 gap=1.05 regret_margin=5.8 broken=False dir=1.00
+misspec greybox_emax_scale4      seeds=3 bolus raw=2.98 cal=1.80 basal cal=1.10 k_bolus=0.62 k_basal=0.71 skill=0.51 gap=0.96 regret_margin=3.9 broken=False dir=1.00
+misspec greybox_hill_scale0.5    seeds=3 bolus raw=1.00 cal=0.94 basal cal=0.79 k_bolus=0.94 k_basal=0.85 skill=0.49 gap=1.08 regret_margin=2.8 broken=False dir=1.00
+misspec greybox_hill_scale2      seeds=3 bolus raw=1.23 cal=2.24 basal cal=1.15 k_bolus=1.76 k_basal=5.25 skill=0.45 gap=1.04 regret_margin=5.5 broken=False dir=1.00
+misspec greybox_ke_scale0.5      seeds=3 bolus raw=1.65 cal=1.34 basal cal=0.81 k_bolus=0.81 k_basal=0.86 skill=0.47 gap=1.13 regret_margin=5.6 broken=False dir=1.00
+misspec greybox_ke_scale2        seeds=3 bolus raw=1.36 cal=1.40 basal cal=1.08 k_bolus=1.02 k_basal=2.00 skill=0.49 gap=0.98 regret_margin=5.0 broken=False dir=1.00
+audit glucose misspec: n=24 broken=0 | effect test caught 0/0 false alarms 1/24 | old gates caught 0/0 false 0/24 | gap caught 0/0
+audit size, fine-tuned: n=36 broken=16 | effect test caught 15/16 false alarms 14/20 | old gates caught 15/16 false 11/20 | gap caught 7/16
+audit size, unadjusted: n=36 broken=36 | effect test caught 36/36 false alarms 0/0 | old gates caught 36/36 false 0/0 | gap caught 36/36
+audit size, grey-box: n=12 broken=0 | effect test caught 0/0 false alarms 3/12 | old gates caught 0/0 false 2/12 | gap caught 0/0
+  glucose/lam0.75/greybox_emax_scale0.25/s0    broken=False eff=True ratio=[1.65, 0.54] true=[1.25, 0.87]
+  glucose/lam0.75/greybox_emax_scale0.25/s1    broken=False eff=False ratio=[1.61, 0.58] true=[1.26, 1.05]
+  glucose/lam0.75/greybox_emax_scale0.25/s2    broken=False eff=False ratio=[1.19, 0.72] true=[1.1, 1.24]
+  glucose/lam0.75/greybox_emax_scale0.5/s0     broken=False eff=False ratio=[1.04, 0.76] true=[0.96, 1.18]
+  glucose/lam0.75/greybox_emax_scale0.5/s2     broken=False eff=False ratio=[0.73, 0.67] true=[0.86, 1.11]
+  glucose/lam0.75/greybox_emax_scale0.5/s1     broken=False eff=False ratio=[1.33, 0.7] true=[1.11, 1.15]
+  glucose/lam0.75/greybox_emax_scale2/s1       broken=False eff=False ratio=[1.54, 0.84] true=[1.11, 1.55]
+  glucose/lam0.75/greybox_emax_scale2/s0       broken=False eff=False ratio=[1.07, 0.99] true=[0.94, 2.09]
+  glucose/lam0.75/greybox_emax_scale2/s2       broken=False eff=False ratio=[0.95, 0.96] true=[0.87, 1.79]
+  glucose/lam0.75/greybox_emax_scale4/s0       broken=False eff=False ratio=[1.35, 0.86] true=[1.11, 1.62]
+  glucose/lam0.75/greybox_emax_scale4/s1       broken=False eff=False ratio=[1.57, 0.94] true=[1.12, 1.67]
+  glucose/lam0.75/greybox_emax_scale4/s2       broken=False eff=False ratio=[1.17, 1.17] true=[1.07, 2.12]
+  glucose/lam0.75/greybox_hill_scale0.5/s0     broken=False eff=False ratio=[1.02, 0.89] true=[0.82, 1.03]
+  glucose/lam0.75/greybox_hill_scale0.5/s1     broken=False eff=False ratio=[1.21, 0.85] true=[0.8, 0.96]
+  glucose/lam0.75/greybox_hill_scale0.5/s2     broken=False eff=False ratio=[0.8, 0.72] true=[0.76, 0.83]
+  glucose/lam0.75/greybox_hill_scale2/s0       broken=False eff=False ratio=[1.46, 0.62] true=[1.2, 2.0]
+  glucose/lam0.75/greybox_hill_scale2/s1       broken=False eff=False ratio=[1.49, 0.65] true=[1.24, 2.18]
+  glucose/lam0.75/greybox_hill_scale2/s2       broken=False eff=False ratio=[1.05, 0.77] true=[1.02, 2.52]
+  glucose/lam0.75/greybox_ke_scale0.5/s0       broken=False eff=False ratio=[0.92, 0.96] true=[0.87, 1.79]
+  glucose/lam0.75/greybox_ke_scale0.5/s1       broken=False eff=False ratio=[0.85, 0.71] true=[0.91, 1.18]
+  glucose/lam0.75/greybox_ke_scale0.5/s2       broken=False eff=False ratio=[0.42, 0.73] true=[0.66, 1.06]
+  glucose/lam0.75/greybox_ke_scale2/s0         broken=False eff=False ratio=[1.52, 0.83] true=[1.09, 1.37]
+  glucose/lam0.75/greybox_ke_scale2/s1         broken=False eff=False ratio=[1.87, 0.78] true=[1.27, 1.41]
+  glucose/lam0.75/greybox_ke_scale2/s2         broken=False eff=False ratio=[0.98, 0.82] true=[0.9, 1.42]

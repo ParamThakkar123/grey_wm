@@ -1,0 +1,16 @@
+sepsis   lam=0.25 oracle=0  full: capped 0.03  horizon+trunc: capped 0.00
+sepsis   lam=0.25 oracle=1  full: capped 0.05  horizon+trunc: capped 0.00
+sepsis   lam=0.50 oracle=0  full: capped 0.20  horizon+trunc: capped 0.01
+sepsis   lam=0.50 oracle=1  full: capped 0.38  horizon+trunc: capped 0.01
+sepsis   lam=0.75 oracle=0  full: capped 0.28  horizon+trunc: capped 0.02
+sepsis   lam=0.75 oracle=1  full: capped 0.79  horizon+trunc: capped 0.16
+sepsis   lam=1.00 oracle=0  full: capped 0.23  horizon+trunc: capped 0.02
+sepsis   lam=1.00 oracle=1  full: capped 0.94  horizon+trunc: capped 0.34
+glucose  lam=0.25 oracle=0  full: capped 0.03  horizon+trunc: capped 0.00
+glucose  lam=0.25 oracle=1  full: capped 0.03  horizon+trunc: capped 0.00
+glucose  lam=0.50 oracle=0  full: capped 0.29  horizon+trunc: capped 0.04
+glucose  lam=0.50 oracle=1  full: capped 0.54  horizon+trunc: capped 0.13
+glucose  lam=0.75 oracle=0  full: capped 0.34  horizon+trunc: capped 0.06
+glucose  lam=0.75 oracle=1  full: capped 0.90  horizon+trunc: capped 0.50
+glucose  lam=1.00 oracle=0  full: capped 0.03  horizon+trunc: capped 0.00
+glucose  lam=1.00 oracle=1  full: capped 0.96  horizon+trunc: capped 0.63

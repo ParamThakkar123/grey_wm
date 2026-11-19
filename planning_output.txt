@@ -1,0 +1,72 @@
+sepsis greybox 0 1.57 fixed 5.71
+sepsis greybox 1 1.64 fixed 5.71
+sepsis greybox 2 1.55 fixed 5.71
+sepsis gru 0 7.65 fixed 5.71
+sepsis gru 1 11.29 fixed 5.71
+sepsis gru 2 2.77 fixed 5.71
+sepsis gru-ode 0 12.46 fixed 5.71
+sepsis gru-ode 1 11.33 fixed 5.71
+sepsis gru-ode 2 12.31 fixed 5.71
+sepsis crn 0 10.0 fixed 5.71
+sepsis crn 1 11.51 fixed 5.71
+sepsis crn 2 2.34 fixed 5.71
+sepsis transformer 0 11.43 fixed 5.71
+sepsis transformer 1 8.57 fixed 5.71
+sepsis transformer 2 8.43 fixed 5.71
+sepsis gru+ft 0 1.93 fixed 5.71
+sepsis gru+ft 1 1.81 fixed 5.71
+sepsis gru+ft 2 2.08 fixed 5.71
+sepsis gru-ode+ft 0 2.31 fixed 5.71
+sepsis gru-ode+ft 1 2.0 fixed 5.71
+sepsis gru-ode+ft 2 1.99 fixed 5.71
+sepsis crn+ft 0 1.73 fixed 5.71
+sepsis crn+ft 1 1.75 fixed 5.71
+sepsis crn+ft 2 2.12 fixed 5.71
+sepsis transformer+ft 0 2.08 fixed 5.71
+sepsis transformer+ft 1 2.32 fixed 5.71
+sepsis transformer+ft 2 2.11 fixed 5.71
+glucose greybox 0 5.55 fixed 8.07
+glucose greybox 1 5.26 fixed 8.07
+glucose greybox 2 5.6 fixed 8.07
+glucose gru 0 33.2 fixed 8.07
+glucose gru 1 31.3 fixed 8.07
+glucose gru 2 33.44 fixed 8.07
+glucose gru-ode 0 38.02 fixed 8.07
+glucose gru-ode 1 34.88 fixed 8.07
+glucose gru-ode 2 37.32 fixed 8.07
+glucose crn 0 32.47 fixed 8.07
+glucose crn 1 30.79 fixed 8.07
+glucose crn 2 32.41 fixed 8.07
+glucose transformer 0 34.56 fixed 8.07
+glucose transformer 1 33.04 fixed 8.07
+glucose transformer 2 39.57 fixed 8.07
+glucose gru+ft 0 6.71 fixed 8.07
+glucose gru+ft 1 6.76 fixed 8.07
+glucose gru+ft 2 6.48 fixed 8.07
+glucose gru-ode+ft 0 9.27 fixed 8.07
+glucose gru-ode+ft 1 6.97 fixed 8.07
+glucose gru-ode+ft 2 7.52 fixed 8.07
+glucose crn+ft 0 11.9 fixed 8.07
+glucose crn+ft 1 9.8 fixed 8.07
+glucose crn+ft 2 7.41 fixed 8.07
+glucose transformer+ft 0 9.35 fixed 8.07
+glucose transformer+ft 1 9.8 fixed 8.07
+glucose transformer+ft 2 39.57 fixed 8.07
+glucose crn              n=3 regret=31.89 (min 30.79, max 32.47) fixed=8.07
+glucose crn+ft           n=3 regret=9.70 (min 7.41, max 11.90) fixed=8.07
+glucose greybox          n=3 regret=5.47 (min 5.26, max 5.60) fixed=8.07
+glucose gru              n=3 regret=32.65 (min 31.30, max 33.44) fixed=8.07
+glucose gru+ft           n=3 regret=6.65 (min 6.48, max 6.76) fixed=8.07
+glucose gru-ode          n=3 regret=36.74 (min 34.88, max 38.02) fixed=8.07
+glucose gru-ode+ft       n=3 regret=7.92 (min 6.97, max 9.27) fixed=8.07
+glucose transformer      n=3 regret=35.72 (min 33.04, max 39.57) fixed=8.07
+glucose transformer+ft   n=3 regret=19.57 (min 9.35, max 39.57) fixed=8.07
+sepsis  crn              n=3 regret=7.95 (min 2.34, max 11.51) fixed=5.71
+sepsis  crn+ft           n=3 regret=1.87 (min 1.73, max 2.12) fixed=5.71
+sepsis  greybox          n=3 regret=1.59 (min 1.55, max 1.64) fixed=5.71
+sepsis  gru              n=3 regret=7.24 (min 2.77, max 11.29) fixed=5.71
+sepsis  gru+ft           n=3 regret=1.94 (min 1.81, max 2.08) fixed=5.71
+sepsis  gru-ode          n=3 regret=12.03 (min 11.33, max 12.46) fixed=5.71
+sepsis  gru-ode+ft       n=3 regret=2.10 (min 1.99, max 2.31) fixed=5.71
+sepsis  transformer      n=3 regret=9.48 (min 8.43, max 11.43) fixed=5.71
+sepsis  transformer+ft   n=3 regret=2.17 (min 2.08, max 2.32) fixed=5.71

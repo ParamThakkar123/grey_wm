@@ -1,0 +1,36 @@
+greybox 0 {'bolus_once_sensitivity': 0.77, 'bolus_x1.3_sensitivity': 0.94}
+greybox 1 {'bolus_once_sensitivity': 0.85, 'bolus_x1.3_sensitivity': 1.02}
+greybox 2 {'bolus_once_sensitivity': 0.87, 'bolus_x1.3_sensitivity': 1.06}
+gru 0 {'bolus_once_sensitivity': 0.05, 'bolus_x1.3_sensitivity': 0.07}
+gru 1 {'bolus_once_sensitivity': 0.04, 'bolus_x1.3_sensitivity': 0.06}
+gru 2 {'bolus_once_sensitivity': 0.06, 'bolus_x1.3_sensitivity': 0.08}
+gru-ode 0 {'bolus_once_sensitivity': 0.12, 'bolus_x1.3_sensitivity': 0.11}
+gru-ode 1 {'bolus_once_sensitivity': 0.08, 'bolus_x1.3_sensitivity': 0.12}
+gru-ode 2 {'bolus_once_sensitivity': 0.05, 'bolus_x1.3_sensitivity': 0.09}
+crn 0 {'bolus_once_sensitivity': 0.03, 'bolus_x1.3_sensitivity': 0.05}
+crn 1 {'bolus_once_sensitivity': 0.05, 'bolus_x1.3_sensitivity': 0.07}
+crn 2 {'bolus_once_sensitivity': 0.06, 'bolus_x1.3_sensitivity': 0.09}
+transformer 0 {'bolus_once_sensitivity': -0.01, 'bolus_x1.3_sensitivity': 0.02}
+transformer 1 {'bolus_once_sensitivity': 0.02, 'bolus_x1.3_sensitivity': 0.06}
+transformer 2 {'bolus_once_sensitivity': 0.01, 'bolus_x1.3_sensitivity': 0.0}
+gru+ft 0 {'bolus_once_sensitivity': 0.52, 'bolus_x1.3_sensitivity': 0.69}
+gru+ft 1 {'bolus_once_sensitivity': 0.43, 'bolus_x1.3_sensitivity': 0.61}
+gru+ft 2 {'bolus_once_sensitivity': 0.56, 'bolus_x1.3_sensitivity': 0.94}
+gru-ode+ft 0 {'bolus_once_sensitivity': 0.43, 'bolus_x1.3_sensitivity': 0.39}
+gru-ode+ft 1 {'bolus_once_sensitivity': 0.57, 'bolus_x1.3_sensitivity': 0.53}
+gru-ode+ft 2 {'bolus_once_sensitivity': 0.54, 'bolus_x1.3_sensitivity': 0.59}
+crn+ft 0 {'bolus_once_sensitivity': 0.37, 'bolus_x1.3_sensitivity': 0.57}
+crn+ft 1 {'bolus_once_sensitivity': 0.39, 'bolus_x1.3_sensitivity': 0.57}
+crn+ft 2 {'bolus_once_sensitivity': 0.53, 'bolus_x1.3_sensitivity': 0.84}
+transformer+ft 0 {'bolus_once_sensitivity': 0.05, 'bolus_x1.3_sensitivity': 0.12}
+transformer+ft 1 {'bolus_once_sensitivity': 0.01, 'bolus_x1.3_sensitivity': 0.3}
+transformer+ft 2 {'bolus_once_sensitivity': 0.01, 'bolus_x1.3_sensitivity': 0.0}
+greybox         bolus_once_sensitivity=0.83  bolus_x1.3_sensitivity=1.01
+gru             bolus_once_sensitivity=0.05  bolus_x1.3_sensitivity=0.07
+gru-ode         bolus_once_sensitivity=0.09  bolus_x1.3_sensitivity=0.11
+crn             bolus_once_sensitivity=0.05  bolus_x1.3_sensitivity=0.07
+transformer     bolus_once_sensitivity=0.01  bolus_x1.3_sensitivity=0.02
+gru+ft          bolus_once_sensitivity=0.50  bolus_x1.3_sensitivity=0.75
+gru-ode+ft      bolus_once_sensitivity=0.51  bolus_x1.3_sensitivity=0.50
+crn+ft          bolus_once_sensitivity=0.43  bolus_x1.3_sensitivity=0.66
+transformer+ft  bolus_once_sensitivity=0.02  bolus_x1.3_sensitivity=0.14

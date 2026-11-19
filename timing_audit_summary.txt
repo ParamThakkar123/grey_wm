@@ -1,0 +1,8 @@
+1. 312 models of the main audit scored (110 broken)
+   timing test: caught 107/110 broken, flagged 77/202 of the rest
+   effect test: caught 108/110, flagged 80/202
+   either:      caught 108/110, flagged 87/202
+2. wrong form (no depot, no delay, added delay): timing test flags 3/9; effect test flags 1/9
+2. linear dose-response: timing test flags 0/6; effect test flags 0/6
+3. PK/PD only: timing test flags 0/30; effect test flags 0/30
+3. fluid-only elimination: timing test flags 4/15; effect test flags 5/15

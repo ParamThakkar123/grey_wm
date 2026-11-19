@@ -1,0 +1,1126 @@
+{
+ "fresh": [
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  }
+ ],
+ "all": [
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "crn+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "sepsis",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "gru-ode+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "crn+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Effect skill",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Regret",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "CF RMSE",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, open loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  },
+  {
+   "env": "glucose",
+   "ft": "transformer+ft",
+   "metric": "Planning regret, closed loop",
+   "n": [
+    0,
+    0
+   ],
+   "complete": false,
+   "grey": NaN,
+   "base": NaN,
+   "p": NaN,
+   "holm": 1.0
+  }
+ ]
+}

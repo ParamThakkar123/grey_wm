@@ -1,0 +1,20 @@
+
+== glucose bolus included when judging how far off a model is
+312 models, 110 broken
+95% (paper)                    caught 106/110  flagged 75/202 of the rest; 69 of those off >1.25x, 65 of those off >1.5x, 45 of those off >2x
+95%, Bonferroni over 2 drugs   caught 104/110  flagged 53/202 of the rest; 50 of those off >1.25x, 48 of those off >1.5x, 37 of those off >2x
+99%                            caught 103/110  flagged 37/202 of the rest; 36 of those off >1.25x, 34 of those off >1.5x, 29 of those off >2x
+99.9%                          caught 88/110  flagged 10/202 of the rest; 9 of those off >1.25x, 9 of those off >1.5x, 7 of those off >2x
+not broken, some drug off >1.25x: 137, flagged 73; within 1.25x: 65, flagged 7
+not broken, some drug off >1.5x: 100, flagged 67; within 1.5x: 102, flagged 13
+not broken, some drug off >2x: 48, flagged 46; within 2x: 154, flagged 34
+
+== glucose bolus left out when judging how far off a model is
+312 models, 110 broken
+95% (paper)                    caught 106/110  flagged 75/202 of the rest; 68 of those off >1.25x, 65 of those off >1.5x, 39 of those off >2x
+95%, Bonferroni over 2 drugs   caught 104/110  flagged 53/202 of the rest; 50 of those off >1.25x, 48 of those off >1.5x, 31 of those off >2x
+99%                            caught 103/110  flagged 37/202 of the rest; 36 of those off >1.25x, 34 of those off >1.5x, 25 of those off >2x
+99.9%                          caught 88/110  flagged 10/202 of the rest; 9 of those off >1.25x, 9 of those off >1.5x, 7 of those off >2x
+not broken, some drug off >1.25x: 122, flagged 72; within 1.25x: 80, flagged 8
+not broken, some drug off >1.5x: 87, flagged 67; within 1.5x: 115, flagged 13
+not broken, some drug off >2x: 42, flagged 40; within 2x: 160, flagged 40

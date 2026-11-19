@@ -1,0 +1,31 @@
+[project]
+name = "grey-wm"
+version = "0.1.0"
+description = "Grey-box world models for counterfactual clinical simulation under confounding"
+authors = [{ name = "Param Thakkar", email = "paramthakkar864@gmail.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "simulusion @ git+https://github.com/ParamThakkar123/simulusion.git@5b378d3f",  # training harness, pinned
+    "torch>=2.2",
+    "numpy>=1.26",
+    "pyyaml>=6",
+]
+
+[project.optional-dependencies]
+glucose = ["simglucose>=0.2.11"]
+plots = ["matplotlib>=3.8", "pandas>=2.1"]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["grey_wm*"]
+
+[tool.setuptools.package-data]
+"grey_wm.sims" = ["data/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

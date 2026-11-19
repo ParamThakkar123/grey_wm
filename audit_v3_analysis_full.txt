@@ -1,0 +1,64 @@
+312 models; max |drug-0 skill - v2 value| = 3.39e-04
+broken_v1 all             dir       caught  74/ 76 (0.97)  false alarms  56/236 (0.24)  precision 0.57
+broken_v1 all             gap       caught  67/ 76 (0.88)  false alarms  60/236 (0.25)  precision 0.53
+broken_v1 all             cov       caught   3/ 76 (0.04)  false alarms   3/236 (0.01)  precision 0.50
+broken_v1 all             old       caught  74/ 76 (0.97)  false alarms  81/236 (0.34)  precision 0.48
+broken_v1 all             eff       caught  75/ 76 (0.99)  false alarms 113/236 (0.48)  precision 0.40
+broken_v1 all             combined  caught  76/ 76 (1.00)  false alarms 126/236 (0.53)  precision 0.38
+broken_v1 not fine-tuned  dir       caught  63/ 63 (1.00)  false alarms  40/129 (0.31)  precision 0.61
+broken_v1 not fine-tuned  gap       caught  62/ 63 (0.98)  false alarms  49/129 (0.38)  precision 0.56
+broken_v1 not fine-tuned  cov       caught   0/ 63 (0.00)  false alarms   0/129 (0.00)  precision 0.00
+broken_v1 not fine-tuned  old       caught  63/ 63 (1.00)  false alarms  55/129 (0.43)  precision 0.53
+broken_v1 not fine-tuned  eff       caught  63/ 63 (1.00)  false alarms  71/129 (0.55)  precision 0.47
+broken_v1 not fine-tuned  combined  caught  63/ 63 (1.00)  false alarms  75/129 (0.58)  precision 0.46
+broken_v1 fine-tuned      dir       caught  11/ 13 (0.85)  false alarms  16/107 (0.15)  precision 0.41
+broken_v1 fine-tuned      gap       caught   5/ 13 (0.38)  false alarms  11/107 (0.10)  precision 0.31
+broken_v1 fine-tuned      cov       caught   3/ 13 (0.23)  false alarms   3/107 (0.03)  precision 0.50
+broken_v1 fine-tuned      old       caught  11/ 13 (0.85)  false alarms  26/107 (0.24)  precision 0.30
+broken_v1 fine-tuned      eff       caught  12/ 13 (0.92)  false alarms  42/107 (0.39)  precision 0.22
+broken_v1 fine-tuned      combined  caught  13/ 13 (1.00)  false alarms  51/107 (0.48)  precision 0.20
+broken_v2 all             dir       caught 105/110 (0.95)  false alarms  25/202 (0.12)  precision 0.81
+broken_v2 all             gap       caught  98/110 (0.89)  false alarms  29/202 (0.14)  precision 0.77
+broken_v2 all             cov       caught   3/110 (0.03)  false alarms   3/202 (0.01)  precision 0.50
+broken_v2 all             old       caught 105/110 (0.95)  false alarms  50/202 (0.25)  precision 0.68
+broken_v2 all             eff       caught 108/110 (0.98)  false alarms  80/202 (0.40)  precision 0.57
+broken_v2 all             combined  caught 109/110 (0.99)  false alarms  93/202 (0.46)  precision 0.54
+broken_v2 not fine-tuned  dir       caught  94/ 97 (0.97)  false alarms   9/ 95 (0.09)  precision 0.91
+broken_v2 not fine-tuned  gap       caught  93/ 97 (0.96)  false alarms  18/ 95 (0.19)  precision 0.84
+broken_v2 not fine-tuned  cov       caught   0/ 97 (0.00)  false alarms   0/ 95 (0.00)  precision 0.00
+broken_v2 not fine-tuned  old       caught  94/ 97 (0.97)  false alarms  24/ 95 (0.25)  precision 0.80
+broken_v2 not fine-tuned  eff       caught  96/ 97 (0.99)  false alarms  38/ 95 (0.40)  precision 0.72
+broken_v2 not fine-tuned  combined  caught  96/ 97 (0.99)  false alarms  42/ 95 (0.44)  precision 0.70
+broken_v2 fine-tuned      dir       caught  11/ 13 (0.85)  false alarms  16/107 (0.15)  precision 0.41
+broken_v2 fine-tuned      gap       caught   5/ 13 (0.38)  false alarms  11/107 (0.10)  precision 0.31
+broken_v2 fine-tuned      cov       caught   3/ 13 (0.23)  false alarms   3/107 (0.03)  precision 0.50
+broken_v2 fine-tuned      old       caught  11/ 13 (0.85)  false alarms  26/107 (0.24)  precision 0.30
+broken_v2 fine-tuned      eff       caught  12/ 13 (0.92)  false alarms  42/107 (0.39)  precision 0.22
+broken_v2 fine-tuned      combined  caught  13/ 13 (1.00)  false alarms  51/107 (0.48)  precision 0.20
+missed by combined gate (v2 truth): ['sepsis/lam0.75/greybox_emax_scale4/s0']
+
+AUC for broken_v2 (higher score = more suspicious)
+  s_gap: sepsis 0.96, glucose 0.91, pooled 0.92
+  s_dir: sepsis 0.95, glucose 0.99, pooled 0.97
+  s_cov: sepsis 0.23, glucose 0.22, pooled 0.28
+  s_eff: sepsis 0.95, glucose 0.96, pooled 0.95
+
+Transfer: threshold by Youden on one simulator, tested on the other (broken_v2)
+  s_gap sepsis->glucose: threshold 1.352, sens 0.70, spec 0.99
+  s_gap glucose->sepsis: threshold 1.275, sens 0.93, spec 0.87
+  s_dir sepsis->glucose: threshold 0.543, sens 0.66, spec 1.00
+  s_dir glucose->sepsis: threshold 0.210, sens 0.93, spec 0.99
+  s_cov sepsis->glucose: threshold 0.085, sens 0.94, spec 0.00
+  s_cov glucose->sepsis: threshold 0.201, sens 0.00, spec 1.00
+  s_eff sepsis->glucose: threshold 2.993, sens 0.83, spec 0.95
+  s_eff glucose->sepsis: threshold 3.251, sens 0.80, spec 0.92
+
+Holdout size (effect test alone, broken_v2)
+  fast test reproduces the recorded flag for 312/312 models
+  18 patients: sens 0.72, false-alarm rate 0.24
+  36 patients: sens 0.90, false-alarm rate 0.29
+  54 patients: sens 0.96, false-alarm rate 0.34
+
+Effect ratio from randomised data vs simulator sensitivity: r = 0.78 (n=624)
+
+Grey-box flags by effect test (seeds flagged / 3): {'glucose 0.0': 0, 'glucose 0.25': 0, 'glucose 0.5': 0, 'glucose 0.75': 0, 'glucose 1.0': 0, 'sepsis 0.0': 0, 'sepsis 0.25': 0, 'sepsis 0.5': 0, 'sepsis 0.75': 1, 'sepsis 1.0': 3}
